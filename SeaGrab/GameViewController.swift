@@ -10,8 +10,7 @@ import UIKit
 import SpriteKit
 
 class GameViewController: UIViewController {
-    
-        var scene: GameScene!
+    var scene: GameScene!
     
     override func prefersStatusBarHidden()-> Bool {
         return true
