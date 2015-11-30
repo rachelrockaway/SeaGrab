@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4962C9E71C0ADCBE009057F5 /* SeaGrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962C9E61C0ADCBE009057F5 /* SeaGrab.swift */; };
 		49A16C1B1C0AD11400138598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A16C1A1C0AD11400138598 /* AppDelegate.swift */; };
 		49A16C1F1C0AD11400138598 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A16C1E1C0AD11400138598 /* GameScene.swift */; };
 		49A16C211C0AD11400138598 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A16C201C0AD11400138598 /* GameViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4962C9E61C0ADCBE009057F5 /* SeaGrab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaGrab.swift; sourceTree = "<group>"; };
 		49A16C171C0AD11300138598 /* SeaGrab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaGrab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A16C1A1C0AD11400138598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A16C1E1C0AD11400138598 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				49A16C1A1C0AD11400138598 /* AppDelegate.swift */,
 				49A16C1E1C0AD11400138598 /* GameScene.swift */,
 				49A16C201C0AD11400138598 /* GameViewController.swift */,
+				4962C9E61C0ADCBE009057F5 /* SeaGrab.swift */,
 				49A16C221C0AD11400138598 /* Main.storyboard */,
 				49A16C251C0AD11400138598 /* Assets.xcassets */,
 				49A16C4C1C0AD36400138598 /* Sprites.atlas */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A16C1F1C0AD11400138598 /* GameScene.swift in Sources */,
+				4962C9E71C0ADCBE009057F5 /* SeaGrab.swift in Sources */,
 				49A16C211C0AD11400138598 /* GameViewController.swift in Sources */,
 				49A16C1B1C0AD11400138598 /* AppDelegate.swift in Sources */,
 			);
@@ -492,6 +496,7 @@
 				49A16C451C0AD11500138598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49A16C461C0AD11500138598 /* Build configuration list for PBXNativeTarget "SeaGrabTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				49A16C481C0AD11500138598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49A16C491C0AD11500138598 /* Build configuration list for PBXNativeTarget "SeaGrabUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +514,7 @@
 				49A16C4B1C0AD11500138598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
